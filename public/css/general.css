@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--tipografiaGeneral);
+    font-weight: 300;
+    margin: 0px;
+
+}
+
+h1 {
+    font-family: var(--tipografiaGeneral);
+    font-weight: 900;
+    font-size: 2em;
+    color: var(--Negro);
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--Negro);
+}
+
+h2 {
+    font-family: var(--tipografiaGeneral);
+    font-weight: 900;
+    font-size: 1.5em;
+    color: var(--Negro);
+}
+
+h3 {
+    font-family: var(--tipografiaGeneral);
+    font-weight: 900;
+    font-size: 1.2em;
+    color: var(--Negro);
+}
+
+h4 {
+    font-family: var(--tipografiaGeneral);
+    font-weight: 900;
+    font-size: 1em;
+    color: var(--Negro);
+}
+
+p {
+    font-family: var(--tipografiaGeneral);
+    font-weight: 400;
+    font-size: 0.9em;
+    color: var(--Negro);
+}
+
+img {
+    width: 100%;
+}

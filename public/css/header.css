@@ -1,0 +1,34 @@
+/* MOBILE */
+
+header {
+    border-bottom: 1px solid var(--GrisOscuro);
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header h2 {
+    text-align: center;
+}
+
+/* DESKTOP */
+
+@media(min-width:768px) {
+
+    header {
+        border-bottom: 1px solid var(--GrisOscuro);
+        margin: 50px 50px 30px;
+        padding: 0px 0px 20px;
+    }
+
+    header h1 {
+        text-align: left;
+    }
+
+    header h2 {
+        text-align: left;
+    }
+}

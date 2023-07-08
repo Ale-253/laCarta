@@ -1,0 +1,114 @@
+/* MAIN MOBILE */
+
+main {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+main aside {
+  width: 100%;
+  border-right: none;
+  border-bottom: 1px solid var(--GrisOscuro);
+  margin-bottom: 20px;
+  padding: 20px 0px 20px 0;
+  text-align: center;
+}
+
+/* main aside nav {}
+
+main aside nav ul {}
+
+main aside nav ul li {}
+
+main aside nav ul li a {} */
+
+main section {
+  width: 100%;
+  order: 1;
+  padding: 20px;
+}
+
+main section h3 {
+  padding: 10px 0px 10px 0px;
+  display: inline;
+}
+
+main section article {
+  padding: 20px 0px 10px 0px;
+}
+
+main figure {
+  width: 100%;
+  padding: 10px;
+}
+
+main figure img.foto-producto {
+  border: 1px solid var(--GrisClaro);
+  width: 100%;
+
+}
+
+main section div.volver {
+  font-weight: 900;
+  font-size: 1em;
+}
+
+main section div.volver a {
+  color: var(--Verde);
+}
+
+/* DESKTOP */
+
+@media(min-width:768px) {
+
+  main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 50px 50px;
+    height: 100%;
+
+  }
+
+  main aside {
+    margin: 0;
+    width: 25%;
+    border-right: 1px solid var(--GrisOscuro);
+    padding: 0 20px 0 0;
+    border-bottom: none;
+  }
+
+  main aside nav ul li {
+    padding: 5px 0;
+    text-align: left;
+  }
+
+  main section {
+    width: 50%;
+    order: 0;
+  }
+
+  main section h3 {
+    padding: 0px 0px 10px 20px;
+  }
+
+  main section article {
+    padding: 20px 0px 10px 40px;
+  }
+
+  main section div {
+    padding: 20px 0px 10px 20px;
+  }
+
+  main figure {
+    width: 25%;
+    padding: 10px;
+  }
+
+  main section div.volver {
+    font-weight: 900;
+    font-size: 1em;
+    color: var(--Verde);
+  }
+}

@@ -1,0 +1,11 @@
+/* IMPORT FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,300;1,500&family=Raleway:wght@400;700&family=Roboto+Mono:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,500&family=Work+Sans:wght@300;400;700&display=swap');
+
+/* IMPORT STYLES */
+
+@import 'vars.css';
+@import 'general.css';
+@import 'header.css';
+@import 'main.css';
+@import 'footer.css';
